@@ -10,3 +10,9 @@ router.put("/posts/:id", controllers.updatePost);
 router.delete("/posts/:id", controllers.deletePost);
 
 export default router;
+
+/* adding those routes, to router
+posts, does get, etc.
+forming router OBJECT and exporting that, with all of the routes (and corresponding controllers)
+
+*/
