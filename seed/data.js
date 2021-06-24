@@ -6,6 +6,7 @@ const insertData = async () => {
 
   const posts = [
     {
+      title: "The White Wizard",
       author: "Gandolf",
       entryDate: "2021-06-20",
       content:
@@ -14,6 +15,7 @@ const insertData = async () => {
         "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80",
     },
     {
+      title: "The Best Friend",
       author: "Sam",
       entryDate: "2021-06-17",
       content:

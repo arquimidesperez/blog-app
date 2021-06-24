@@ -6,6 +6,7 @@ const Schema = mongoose.Schema;
 
 const Post = new Schema(
   {
+    title: { type: String, required: true },
     author: { type: String, required: true },
     entryDate: { type: Date, required: true },
     //possibly use type: textarea for content
